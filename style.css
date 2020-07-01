@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+    background-image: url("./tree.jpg");
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+#heading{
+    margin-top:80px;
+    font-family:Arial, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 0px 5px white;
+    color:lightseagreen;
+    text-align: center;
+    width: 50%;
+    /* height: 25%; */
+    font-size:5rem;
+    margin-left:25%;
+    box-sizing: border-box;
+}
+#input{   
+    box-sizing: border-box;
+    width:40%;
+    height:500px;
+    margin-top:80px;
+    margin-left:30%;
+    padding:30px;
+    color:darkslategrey;
+    background-color:lightgrey;
+    border:1px solid lightgray;
+    border-radius: 50px;
+    outline: none;
+    /* text-align: justify; */
+    font-size: 2.3rem;
+    font-family: monospace;
+    /* text-shadow: 0px 0px 6px white; */
+    box-shadow: 0px 0px 8px white;
+    font-weight: bolder;
+    opacity:0.9;
+    
+}
+#convert{
+    opacity:0.9;
+    margin-left:43%;
+    box-sizing: border-box;
+    width:14%;
+    height:50px;
+    background-color:lightcoral;
+    border:0px;
+    font-size:2.3rem;
+    outline:none;
+    border-radius:80px;
+    margin-top:50px;
+    /* margin-bottom: 50px; */
+    box-shadow:0px 0px 9px lightblue;
+    font-family: monospace;
+    font-weight: bolder;
+    color:darkslategray;
+    margin-bottom: 0px;
+}
+#convert:hover{
+    box-shadow:0px 0px 14px lightblue;
+}
+#convert:active{
+    box-shadow:0px 0px 9px darkslategray;
+
+}
+#input:hover{
+    box-shadow:0px 0px 14px white;
+}
+#heading:hover{
+    text-shadow:0px 0px 15px lightblue;
+}
+p{
+    font-style:italic;
+    font-size:2rem;
+    color:black;
+    text-align: right;
+    margin-bottom: 15px;
+    text-shadow: 0px 0px 2px lightcoral;
+    margin-top:5px;
+}
+#outer_box p{
+    margin-top:30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+#color1{
+    box-sizing:border-box;
+    margin-top:20px;
+    margin-left:48%;
+    width:5px;
+    height:15px;
+    border:1px solid lightcoral;
+    background-color:lightcoral;
+    border-radius:50px;
+    outline:none;
+    margin-bottom: 0px;
+}
+
+#color2{
+    box-sizing:border-box;
+    margin-top:20px;
+    width:5px;
+    height:15px;
+    border:1px solid lightslategray;
+    background-color:lightslategray;
+    margin-bottom: 0px;
+    border-radius:50px;
+    outline:none;
+}
+
+#color3{
+    box-sizing:border-box;
+    margin-top:20px;
+    margin-bottom: 0px;
+    width:5px;
+    border:1px solid lightgreen;
+    background-color:lightgreen;
+    height:15px;
+    border-radius:50px;
+    outline:none;
+}
